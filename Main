@@ -510,7 +510,7 @@ ModMenu.CreateMenu = function(Settings)
                 if EnableBlur then
                     BlurEffect.Enabled = not Enabled
                 else
-                    BlurEffect.Enabled = true
+                    BlurEffect.Enabled = false
                 end
 				Enabled = not Enabled
 				for I,V in pairs(AllowDrag) do
