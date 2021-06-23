@@ -455,7 +455,7 @@ ModMenu.CreateMenu = function(Settings)
 	
 	local BlurEffect = Instance.new'BlurEffect'; BlurEffect.Parent = game:GetService'Lighting'
 	local UserInputService = game:GetService'UserInputService'
-    local Enabled = false
+    local Enabled = true
     
     local JBFrame = Instance.new("Frame")
     local JBTextLabel = Instance.new("TextLabel")
@@ -510,7 +510,7 @@ ModMenu.CreateMenu = function(Settings)
                 if EnableBlur then
                     BlurEffect.Enabled = not Enabled
                 else
-                    BlurEffect.Enabled = false
+                    BlurEffect.Enabled = true
                 end
 				Enabled = not Enabled
 				for I,V in pairs(AllowDrag) do
