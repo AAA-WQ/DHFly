@@ -455,7 +455,7 @@ ModMenu.CreateMenu = function(Settings)
 	
 	local BlurEffect = Instance.new'BlurEffect'; BlurEffect.Parent = game:GetService'Lighting'
 	local UserInputService = game:GetService'UserInputService'
-    local Enabled = true
+    local Enabled = false
     
     local JBFrame = Instance.new("Frame")
     local JBTextLabel = Instance.new("TextLabel")
